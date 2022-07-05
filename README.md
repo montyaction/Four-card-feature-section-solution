@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://github.com/montyaction/Four-card-feature-section-solution)
-- Live Site URL: [Add live site URL here](https://jade-griffin-de7365.netlify.app/)
+- Live Site URL: [Add live site URL here](https://animated-naiad-6c084a.netlify.app/)
 
 ## My process
 
