@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+// Color Variable
+$Red: hsl(0, 78%, 62%);
+$Cyan: hsl(180, 62%, 55%);
+$Orange: hsl(34, 97%, 64%);
+$Blue: hsl(212, 86%, 64%);
+
+$V-dark-blue: hsl(234, 12%, 34%);
+$Grayish-blue: hsl(229, 6%, 66%);
+$V-light-gray: hsl(0, 0%, 98%);
+
+$White: #fff;
+$Color: #000;
+// Font Weight Variable
+$weight1: 200;
+$weight2: 400;
+$weight3: 600;
+
+// Reset CSS
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: $V-light-gray;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color: $Grayish-blue;
+    line-height: 1.5;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    text-align: center;
+    
+    .head-title {
+        color: $V-dark-blue;
+        font-size: 1.6rem;
+        font-weight: $weight3;
+        margin: 4rem 0 1rem;
+    }
+    
+    span {
+        color: $V-dark-blue;
+        font-weight: $weight1;
+    }
+    
+    .head-descrip {
+        font-size: 1rem;
+        max-width: 320px;
+        width: 90%;
+        margin: 0 auto 4rem auto;
+    }
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+    margin-bottom: 5rem;
+
+    .box {
+        background-color: $White;
+        border-radius: 5px;
+        max-width: 310px;
+        width: 90%;
+        height: 240px;
+        padding: 2rem;
+        box-shadow: 0 0.5rem 1rem rgba($Color, $alpha: 0.15);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        
+        .text-section {
+            
+            .title {
+                color: $V-dark-blue;
+                font-size: 1.2rem;
+                margin-bottom: 0.5rem;
+            }
+
+            .description {
+                font-size: 0.8rem;
+            }
+        }
+
+        .icon-section {
+            align-self: flex-end;
+
+            img {
+                margin-top: 2rem;
+            }
+        }
+    }
+
+    .column-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        align-items: center;
+    }
+    
+    .supervisor {
+        border-top: 4px solid $Cyan;
+    }
+
+    .team-builder {
+        border-top: 4px solid $Red;
+    }
+    
+    .karma {
+        border-top: 4px solid $Orange;
+    }
+
+    .calculator {
+        border-top: 4px solid $Blue;
+    }
+}
+
+// Footer Section
+footer {
+    margin: 3rem 0 1rem 0;
+    
+}
+.attribution {
+     font-size: 11px;
+     text-align: center;
+
+     a {
+         color: hsl(228, 45%, 44%);
+        }
+}
